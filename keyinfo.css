@@ -1,0 +1,458 @@
+body{
+    background-color:  #ee82ee;
+}
+ marquee{  direction: left; 
+    color:red;
+    text-decoration: none;
+    margin-top: 90px;
+    display: inline-block;
+    font-size: 26px;
+}
+#nav {
+    height: 80px;
+    margin:0px;
+     font-size: 18px; 
+    background-color: whitesmoke;
+    border: 2px solid #000;
+    border-radius: 5px; 
+    
+}
+
+#nav ul li a{
+    /* margin: 2px; */
+    padding: 30px 20px 5px 5px;
+    font-family: Bodoni Bd Bt;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    color: green; 
+    text-align: center;
+   }
+#nav ul li a:active {
+    color: hsl(0, 40%, 50%);
+}
+  
+#nav ul li a:hover {
+    color: #0000ff;
+    background-color: red;
+}
+#nav ul li{
+    display: inline;
+     background-color:#ffa500;
+     margin: 2px;
+}
+#nav ul{ 
+    list-style-type: none;
+	border-radius: 30px;
+    margin-left: 200px;
+ }   
+#nav img{
+    float: left;
+    margin-top: -30px;
+    max-width: 100px;
+    }
+
+.two{
+    float: right;
+    margin-top: -10px;
+    margin-right: 20px;
+    max-width: 80px;
+    }
+.thr{
+    float: right;
+    margin-top: -10px;
+    margin-right: 70px;
+    max-width: 80px;
+}
+.for{
+    float: right;
+    margin-top: -10px;
+    margin-right: 120px;
+    max-width: 80px;
+}
+.desc{
+    background-color: blue;
+    opacity: 0.9; height: 3%; 
+    padding-top: 30px;
+    color: white;
+    font-size: 50px;
+    font-family: serif;
+    font-style: bold;
+    text-align: center;
+    margin-top:5px;
+}
+.dec{
+    height: 50px;
+    background-color: pink;
+    color: #ffa500;
+    text-align: center;
+     margin-top: 0px;
+     padding: 10px;
+    }
+
+ .word{
+     font-style: Serif;
+     font-size: 20px;
+     margin-left: 300px;
+     margin-top: 90px;
+    }
+
+.word h1{
+    color: hsl(9, 100%, 64%);
+}
+
+
+.Adinfo{
+    height:250px;
+    width: 300px;
+    margin-top: -500px;
+    margin-left:1000px;
+}
+        
+.Adinfo h3 {
+    font-size: 20px;
+    margin-top: -5px;
+    text-align: center;
+    color: white; 
+    background-color: hsl(0, 0%, 24%);
+    opacity: 0.2px;
+    height: 33px;}
+
+            
+
+#read{
+    height: 252px;
+    width: 300px;
+    border:solid; margin-top:-800px;  margin-top: 30px;
+    margin-left: 1000px;
+}
+
+#read hr{
+ margin-top: -120px;
+background-color:  #ffa500;}
+
+#read img{ 
+    height: 252px;
+    width: 300px;
+}
+ 
+
+#enroll{
+    height: 250px;
+    width: 300px;
+    border:solid;
+    margin-left:1000px;
+    margin-top:30px; 
+    margin-bottom: 100px;
+}
+
+#enroll h4{
+    font-size: 20px; 
+    text-align: center;
+    color: white; 
+    background-color: hsl(0, 0%, 24%);
+    opacity: 0.2px;
+    height: 33px;
+     margin-top: -5px;
+}
+
+
+
+
+.mySlides {display: none}
+img {vertical-align: middle;} 
+
+/* Slideshow container */ 
+ .slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+} 
+
+/* Next & previous buttons */
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  margin-top: -20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+} 
+
+ /* Position the "next button" to the right  */
+ .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} 
+
+/* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+} 
+
+/* Caption text */
+ .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} 
+
+/* Number text (1/3 etc) */
+ .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} 
+
+/* The dots/bullets/indicators */
+ .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+} 
+
+/* Fading animation */
+ .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+/* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} 
+#footer{
+    height: 400px;
+   border-top: 6px solid rgb(1, 1, 19);
+   width: 100%; 
+   background-color:saddlebrown;
+   margin-top: 70px;
+   
+}
+.ABOUT{
+    color: black;
+    
+    margin-left: 50px;
+    margin-top: 30px;
+    /* text-decoration: underline; */
+}
+.tempo:hover{
+    color: green;
+}
+
+.foot{
+    background-color:rgb(1, 1, 19);
+    height: 120px;
+    color: white;
+    text-align: center;
+    /* margin-top: -30px; */
+    
+    
+    }
+      
+.footerdec{
+    display: flex;
+    
+ }
+ 
+.mar{
+    margin: 100px;
+    margin-top: 30px;
+ 
+ }
+ 
+.quick{
+    margin-top: 20px;
+    line-height: 25px;
+ }
+ 
+ .quick ul{
+    
+    list-style-type: none;
+    
+    
+  }
+             
+ 
+ .quick ul li{
+    display: block;
+              }
+ 
+                 
+ .quick ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: Bodoni Bd Bt; 
+   font-size: 16px; 
+        }
+                   
+ 
+ 
+ .quick ul li a:hover {
+    color: hotpink;
+ }
+ 
+ .foo{
+     margin-top: 5px;
+ }
+ .topnav {
+    overflow: hidden;
+    background-color: #ee82ee;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    /* text-align: center; */
+    margin-left: 40px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: red;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+ .dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ee82ee;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media screen and (max-width: 900px) {
+  .dropdown .dropbtn {
+      position: relative;
+  }
+  .dropdown-content {
+    position: sticky;
+    right: 0;
+    top: 0;
+  }
+  .dropdown-content a{
+      display: none;
+      text-align: center;
+  }
+  .slideshow-container{
+      margin-top: 70px;
+    }
+}
+                 
+       
+       
+    
+    
+    
+    
+    
+    
+                 
+
+ 
+
+
+ 
